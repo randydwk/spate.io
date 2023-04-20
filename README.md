@@ -2,10 +2,6 @@
 <!-- <h1>spate.io</h1> -->
 
 
-## Table des matières
-[TOC]
-
-
 ## Description
 
 <table>
