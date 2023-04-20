@@ -6,8 +6,7 @@
 
 <table>
         <tr>
-          <td>Ce dépôt contient la production de [Randy DE WANCKER](https://gitlab.univ-lille.fr/randy.dewancker.etu) et de [Alexandre DEUDON](https://gitlab.univ-lille.fr/alexandre.deudon.etu) pour la [SAÉ4a01.2](https://moodle.univ-lille.fr/course/view.php?id=39191) il s'agit d'une version revisitée du célèbre jeu en ligne [Agar.io](https://agar.io) en JavaScript où le joueur contrôle une cellule qui suit la direction du curseur afin d'absorber les petits elements comestibles sur la carte jusqu'à atteindre un taille permettant d'absorber les autres joueurs !</td>
-          <td>![illustration](/assets/illustration.gif){width=1000px height=200px}</td>
+          <td>Ce dépôt contient la production de Randy De Wancker et Alexandre Deudon pour la SAÉ4a01.2. Il s'agit d'une version revisitée du célèbre jeu en ligne Agar.io en JavaScript où le joueur contrôle une cellule qui suit la direction du curseur afin d'absorber les petits elements comestibles sur la carte jusqu'à atteindre un taille permettant d'absorber les autres joueurs !</td>
         </tr>
 </table>
 
@@ -35,11 +34,7 @@ npm start
 ```
 À présent vous pouvez vous rendre sur [localhost:8000](localhost:8000) et tenter d'atteindre une circonférence supérieure à celle d'éric cartman  
 
-![big boned](https://media.giphy.com/media/Oqy8rcWoCx64o/giphy.gif){width=300px height=200px}
-
-## Diagramme de séquence client/server via websocket
-
-![truc](https://media.tenor.com/MrbLnFgC67UAAAAC/cat-im-on-it.gif)
+![big boned](https://media.giphy.com/media/Oqy8rcWoCx64o/giphy.gif)
 
 ## Difficultés techniques rencontrées
 
