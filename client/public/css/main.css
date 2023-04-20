@@ -1,0 +1,65 @@
+body {
+    font-family: sans-serif;
+}
+
+canvas { 
+    background-color: #223849;
+    display: block;
+    position: absolute;
+    inset: 0;
+    height: 100%;
+    width: 100%;
+}
+
+.scoreperso, .leaderboard, .prompt, .credits{
+    border-radius: 20px;
+    padding: 10px;
+    background-color: rgba(255, 255, 255, 0.2);
+    z-index : 1;
+}
+
+.scoreperso {
+    position: absolute;
+    float: left;
+    bottom: 0;
+    padding: 16px;
+    padding-top: 0;
+    padding-bottom: 0;
+    margin-bottom: 10px;
+}
+
+.scoreperso p {
+    font-weight: bold;
+}
+
+.leaderboard {
+    position: relative;
+    float: right;
+}
+
+.leaderboard h5 {
+    margin: 10px;
+    opacity: 100%;
+    font-size: 20px;
+}
+
+.leaderboard table {
+    width: 100%;
+    margin: 10px;
+    line-height: 20px;
+}
+
+.leaderboard .me {
+    color: rgb(237, 189, 29);
+    font-weight: bold;
+}
+
+.prompt, .credits {
+    position: relative;
+    float: center;
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+}

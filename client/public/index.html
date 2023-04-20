@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/main.css" />
+    <link rel="shortcut icon" type="image/ico" href="./img/favicon.ico"/>
+    <script src="build/main.bundle.js" defer></script>
+    <title>spate.io</title>
+</head>
+<body>
+    <div class="prompt">
+        <form>
+            <h3 class="title">Bienvenue sur spate.io</h3>
+            <input type="text" id="name" name="name" placeholder="Entrez un nom">
+            <br><br>
+            <input type="submit" value="Jouer">
+            <br><br>
+            <button class="creditsBtn">Crédits</button>
+        </form>
+    </div>
+    <div style="display:none" class="credits">
+        <h3 class="title">Crédits</h3>
+        <p>Jeu développé par :<br/><br/>
+        Randy De Wancker (Groupe H) (aka Maddy) (jeu préféré : undertale) (note : 50%)<br/>
+        Alexandre Deudon (Groupe H) (aka Alex) (jeu préféré : unturned) (note : 50%)<br/><br/>
+        Basé sur le concept du jeu <a target="blank" href="https://agar.io/">Agar.io</a></p>
+        <br/>
+        <button class="backBtn">Retour</button>
+    </div>
+    <div class="leaderboard">
+        <h5>👑 Leaderboard 👑</h5>
+        <table class="scores">
+        </table>
+    </div>
+    <div style="display: none;" class="scoreperso">
+        <p>Score : 0</p>
+    </div>
+	<canvas class="canvas"></canvas>
+</body>
+</html>

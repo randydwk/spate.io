@@ -1,0 +1,41 @@
+{
+  "name": "spate.io",
+  "version": "1.0.0",
+  "description": "",
+  "main": "server/build/server/src/index.js",
+  "type": "commonjs",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build:client": "webpack --mode=production",
+    "watch:client": "webpack --mode=development --watch",
+    "build:server": "tsc",
+    "watch:server": "tsc --watch",
+    "dev": "node --watch .",
+    "start": "node ."
+  },
+  "author": "Alexandre Deudon <alexandre.deudon.etu@univ-lille.fr> (https://gitlab.univ-lille.fr/alexandre.deudon.etu) et Randy De Wancker <randy.dewancker.etu@univ-lille.fr> (https://gitlab.univ-lille.fr/randy.dewancker.etu)",
+  "homepage": "https://gitlab.univ-lille.fr/alexandre.deudon.etu/spate.io",
+  "license": "ISC",
+  "devDependencies": {
+    "@babel/cli": "^7.20.7",
+    "@babel/core": "^7.20.12",
+    "@babel/preset-env": "^7.20.2",
+    "babel-loader": "^9.1.2",
+    "nodemon": "^2.0.22",
+    "prettier": "^2.8.3",
+    "ts-loader": "^9.4.2",
+    "ts-node": "^10.9.1",
+    "typescript": "^5.0.2",
+    "webpack": "^5.75.0",
+    "webpack-cli": "^5.0.1",
+    "webpack-dev-middleware": "^6.0.2",
+    "webpack-dev-server": "^4.11.1",
+    "webpack-hot-middleware": "^2.25.3"
+  },
+  "dependencies": {
+    "express": "^4.18.2",
+    "jquery": "^3.6.3",
+    "socket.io": "^4.6.1",
+    "socket.io-client": "^4.6.1"
+  }
+}
